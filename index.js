@@ -21,4 +21,6 @@ try {
 } catch(error) {
     console.log('Nome do erro: ', error.name);
     console.log('Mensagem: ', error.message);
+} finally {
+    console.log('Operação realizada com sucesso');
 }
